@@ -26,7 +26,7 @@ target_link_libraries(wzlib zlibstatic)
 if(WIN32)
 project(wzlibtest)
 
-add_executable(wzlibtest main/main.cpp ${SOURCE_FILES})
+add_executable(wzlibtest test/main.cpp ${SOURCE_FILES})
 target_link_libraries(
         wzlibtest
         PRIVATE
